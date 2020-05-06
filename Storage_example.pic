@@ -1,0 +1,65 @@
+.ce
+Storage Visual Examples
+.PS
+boxwid = 0.20
+boxht = 0.25
+box "1" ;box "2";box "3" ;box "4" ;box "5" ;box "6" ;box "7" ;box "8"
+.PE
+.ce 
+Eight bits equals one byte.
+
+There are 2^8 (256) different possible values for 8 bits. When unsigned, it has possible values ranging from 0 to 255; when signed, it has -128 to 127. Eight-bit CPUs use an 8-bit data bus and can therefore access 8 bits of data in a single machine instruction.
+https://en.wikipedia.org/wiki/8-bit_computing
+
+.PS
+#box
+#box
+#box
+#box
+#box
+#box
+#box
+#box
+sh { date > last_run }
+.PE
+
+.ce
+8 bits
+.PS
+boxwid = 0.10
+boxht = 0.10
+for i = 0 to 7 do {
+box
+}
+.PE
+.ce
+16 bits
+.PS
+boxwid = 0.10
+boxht = 0.10
+for i = 0 to 15 do {
+box
+}
+.PE
+.ce
+32 bits
+.PS
+boxwid = 0.10
+boxht = 0.10
+for i = 0 to 31 do {
+box
+}
+.PE
+.ce
+64 bits
+.PS
+boxwid = 0.10
+boxht = 0.10
+for i = 0 to 63 do {
+box
+}
+.PE
+
+
+
+Tony Casanova - North Carolina - U.S.A.
